@@ -1,0 +1,29 @@
+[
+{
+  "question": "Which of the following is a valid variable name in Python?",
+  "answers": [
+    { "option": "1_variable", "isCorrect": false },
+    { "option": "variable_1", "isCorrect": true },
+    { "option": "variable-1", "isCorrect": false  },
+    { "option": "variable 1", "isCorrect": false  }
+  ]
+},
+{
+  "question": "Which method is used to remove whitespace from the beginning and end of a string?",
+  "answers": [
+    { "option": "strip()", "isCorrect": true },
+    { "option": "trim()", "isCorrect": false },
+    { "option": "clean()", "isCorrect": false  },
+    { "option": "remove()", "isCorrect": false  }
+  ]
+},
+{
+  "question": "How do you start a comment in Python?",
+  "answers": [
+    { "option": "//", "isCorrect": false },
+    { "option": "/*", "isCorrect": false },
+    { "option": "#", "isCorrect": true  },
+    { "option": "<!--", "isCorrect": false  }
+  ]
+}
+]
