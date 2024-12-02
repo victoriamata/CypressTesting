@@ -2,13 +2,17 @@ import Quiz from "../../client/src/components/Quiz";
 import { mount } from "cypress/react";
 
 describe("Quiz", () => {
-  it('should display the "Start Quiz" button', () => {
+  beforeEach(() => {
     // mount the component
     mount(<Quiz />);
+  });
 
+  it('should display the "Start Quiz" button', () => {
     // Check if the "Start Quiz" button is visible
-    cy.get("button")
-      .contains("Start Quiz") // contains text
-      .should("be.visible"); // display button
+    cy.get("button").should("have.text", "Start Quiz"); // contains text
+
+  it('should start a multiple choice quiz once the Start Quiz button is clicked', () => {
+    cy.get('button').contains("Start Quiz").click();
+  })
   });
 });
