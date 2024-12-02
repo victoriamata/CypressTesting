@@ -19,12 +19,14 @@ You can clone this repository onto your local computer. Run the command "npm ins
 
 Open a second terminal and enter "npm run test" to execute the tests.
 
+** Make sure you are running the application locally before running your test!**
+
 ## Usage:
 To use the application, click on the Start Quiz button, and select one of the four multiple choice questions.
 
 To run the tests, refer to the Installation steps in the section above.
 
-[Click here to view my video demo!](https://booksearch-mu1l.onrender.com)
+[Click here to view my video demo!](https://drive.google.com/file/d/1-MnQFCnE9YlxacHNmUfFGmq9EiWX6qYe/view?usp=sharing)
 
 ![](./assets/screenshot.png)
 
